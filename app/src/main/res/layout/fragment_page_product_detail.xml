@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".pages.PageProductDetailFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:visibility="visible"
+        android:src="@mipmap/logo"
+        android:layout_margin="10dp"
+        tools:visibility="visible" />
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    >
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:textColor="#FF0000"
+        android:height="32dp"
+        android:gravity="center_vertical"
+        android:text="￥28000" />
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#999999"
+        android:height="32dp"
+        android:gravity="center_vertical"
+        android:text="库存 5 件" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="18dp"
+        android:text=" CHINESE VALENTINE’S DAY 礼品套装" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineHeight="20dp"
+            android:textSize="16sp"
+            android:text="全新“七夕情人节”特别款闪耀登场，以缤纷手提包、精巧零钱包和精致披肩礼物套装，为BVLGARI宝格丽世界增添别出心裁的色彩。这款“SERPENTI FOREVER”系列MAXI CHAIN手袋采用火烈鸟石英粉色小羊皮包身，两侧饰以象牙蛋白石白色小羊皮，搭配经焕新演绎的镀金黄铜SERPENTI蛇首搭扣，灵感源自1960年代的BVLGARI宝格丽古董腕表，中间处则饰以三枚分别由暗粉色蔷薇辉石、粉色蛋白石和白色珍珠母贝制成的蛇鳞，点缀红色珐琅双眸。搭配哑光同色系经典BVLGARI宝格丽链条。
+全新“七夕情人节”特别款闪耀登场，以缤纷手提包、精巧零钱包和精致披肩礼物套装，为BVLGARI宝格丽世界增添别出心裁的色彩。这款“SERPENTI FOREVER”系列MAXI CHAIN手袋采用火烈鸟石英粉色小羊皮包身，两侧饰以象牙蛋白石白色小羊皮，搭配经焕新演绎的镀金黄铜SERPENTI蛇首搭扣，灵感源自1960年代的BVLGARI宝格丽古董腕表，中间处则饰以三枚分别由暗粉色蔷薇辉石、粉色蛋白石和白色珍珠母贝制成的蛇鳞，点缀红色珐琅双眸。搭配哑光同色系经典BVLGARI宝格丽链条。" />
+
+    </ScrollView>
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="werwe" />
+
+</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">汇捷盘存</string>
+    <string name="title_activity_login">盘存系统</string>
+    <string name="prompt_email">请输入手机号</string>
+    <string name="prompt_tel">请输入手机号</string>
+    <string name="prompt_password">请输入密码</string>
+    <string name="action_sign_in">登 录</string>
+    <string name="action_sign_in_short">登 录</string>
+    <string name="welcome">"欢迎 !"</string>
+    <string name="invalid_username">手机号码错误</string>
+    <string name="invalid_password">密码为6位数字</string>
+    <string name="login_failed">"登录失败"</string>
+    <string name="todo">TODO</string>
+    <string name="welcome_to_system">您好\n欢迎使用XXX系统</string>
+    <string name="rememberPW">自动登录</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_product_detail_fragment">ProductDetailFragment</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+
+</resources>

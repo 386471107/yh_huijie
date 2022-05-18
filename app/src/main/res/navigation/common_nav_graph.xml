@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/common_nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/BLESearchFragment"
+        android:name="com.example.yh_huijie.action.BLESearchFragment"
+        android:label="fragment_ble_search"
+        tools:layout="@layout/fragment_ble_search" />
+    <fragment
+        android:id="@+id/calculateFragment"
+        android:name="com.example.yh_huijie.action.CalculateFragment"
+        android:label="fragment_calculate"
+        tools:layout="@layout/fragment_calculate" />
+    <fragment
+        android:id="@+id/inventoryFragment"
+        android:name="com.example.yh_huijie.action.InventoryFragment"
+        android:label="fragment_inventory"
+        tools:layout="@layout/fragment_inventory" >
+        <action
+            android:id="@+id/action_inventoryFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_inventoryFragment_to_productDetailFragment"
+            app:destination="@id/productDetailFragment" />
+        <action
+            android:id="@+id/action_inventoryFragment_to_pageProductDetailFragment"
+            app:destination="@id/pageProductDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/inventoryByWeightFragment"
+        android:name="com.example.yh_huijie.action.InventoryByWeightFragment"
+        android:label="fragment_inventory_by_weight"
+        tools:layout="@layout/fragment_inventory_by_weight" />
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.yh_huijie.action.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.example.yh_huijie.action.SettingFragment"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.yh_huijie.action.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment2_to_inventoryFragment"
+            app:destination="@id/inventoryFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_homeFragment_to_settingFragment"
+            app:destination="@id/settingFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_calculateFragment"
+            app:destination="@id/calculateFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_testFragment"
+            app:destination="@id/testFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_searchFragment2"
+            app:destination="@id/searchFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_productSearchFragment"
+            app:destination="@id/productSearchFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_productCalcFragment"
+            app:destination="@id/productCalcFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_BLESearchFragment"
+            app:destination="@id/BLESearchFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_productSynchronizationFragment"
+            app:destination="@id/productSynchronizationFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_productAddPageaFragment"
+            app:destination="@id/productAddPageaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/testFragment"
+        android:name="com.example.yh_huijie.action.TestFragment"
+        android:label="TestFragment" />
+    <fragment
+        android:id="@+id/productSearchFragment"
+        android:name="com.example.yh_huijie.action.ProductSearchFragment"
+        android:label="ProductSearchFragment" />
+    <fragment
+        android:id="@+id/productCalcFragment"
+        android:name="com.example.yh_huijie.action.ProductCalcFragment"
+        android:label="ProductCalcFragment" />
+    <fragment
+        android:id="@+id/productSynchronizationFragment"
+        android:name="com.example.yh_huijie.action.ProductSynchronizationFragment"
+        android:label="fragment_product_synchronization"
+        tools:layout="@layout/fragment_product_synchronization" />
+    <fragment
+        android:id="@+id/productDetailFragment"
+        android:name="com.example.yh_huijie.action.ProductDetailFragment"
+        android:label="ProductDetailFragment" />
+    <fragment
+        android:id="@+id/pageProductDetailFragment"
+        android:name="com.example.yh_huijie.pages.PageProductDetailFragment"
+        android:label="fragment_page_product_detail"
+        tools:layout="@layout/fragment_page_product_detail" />
+    <fragment
+        android:id="@+id/productAddPageaFragment"
+        android:name="com.example.yh_huijie.action.ProductAddPageaFragment"
+        android:label="fragment_product_add_pagea"
+        tools:layout="@layout/fragment_product_add_pagea" />
+    <fragment
+        android:id="@+id/productAddPageBFragment"
+        android:name="com.example.yh_huijie.action.ProductAddPageBFragment"
+        android:label="fragment_product_add_page_b"
+        tools:layout="@layout/fragment_product_add_page_b" />
+
+
+</navigation>

@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/backicon"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/back">
+
+        </ImageView>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+
+            />
+        <ImageView
+
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/rfid">
+
+        </ImageView>
+        <ImageView
+
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/scan">
+
+        </ImageView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:layout_margin="5dp"
+        android:background="@color/default_bg_color"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="18sp"
+            android:gravity="left|center"
+            android:text="称重蓝牙已连接" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="45dp"
+                android:gravity="center_vertical"
+                android:text="商品条码" />
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="45dp"
+                android:gravity="center_vertical"
+                android:text="565882252654" />
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:orientation="vertical">
+
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:textSize="22sp"
+                android:gravity="center|left"
+                android:text="这是一个商品名称显示" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:background="#FFF"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="36dp"
+                    android:gravity="center|left"
+                    android:layout_weight="3"
+                    android:text="商品总重" />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="36dp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:text="25Kg" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView34"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="center|left"
+                    android:layout_weight="3"
+                    android:text="商品数量" />
+
+                <TextView
+                    android:id="@+id/textView35"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:text="125" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView36"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="center|left"
+                    android:layout_weight="3"
+                    android:text="单件重量" />
+
+                <TextView
+                    android:id="@+id/textView37"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:text="12g" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:textSize="18sp"
+            android:gravity="center_vertical"
+            android:text="当前信息" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFF"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:background="#FFF"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="36dp"
+                    android:gravity="center|left"
+                    android:layout_weight="3"
+                    android:text="商品总重" />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="36dp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:text="25Kg" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:background="#FFF"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="36dp"
+                    android:gravity="center|left"
+                    android:layout_weight="3"
+                    android:text="商品数量(约)" />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="36dp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:text="125" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:background="#FFF"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="36dp"
+                    android:gravity="center|left"
+                    android:layout_weight="3"
+                    android:text="误差数量" />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="36dp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:text="11" />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:textSize="48sp"
+            android:layout_marginTop="15dp"
+            android:text="24986g" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="259dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="25dp"
+            android:text="重量确认" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

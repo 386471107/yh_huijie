@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/default_bg_color"
+    tools:context=".action.BLESearchFragment"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#FFFFFF"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/backicon"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/back">
+
+        </ImageView>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+
+            />
+        <ImageView
+
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/rfid">
+
+        </ImageView>
+        <ImageView
+
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/scan">
+
+        </ImageView>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:gravity="center_vertical"
+        android:text="已配对设备" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyr_left"
+        android:layout_width="match_parent"
+        android:layout_height="157dp"
+        android:background="@color/default_bg_color" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:gravity="center_vertical"
+        android:text="可配对设备" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recy_right"
+        android:layout_width="match_parent"
+        android:layout_height="182dp"
+        android:background="@color/default_bg_color" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="发现周边设备" />
+
+
+</LinearLayout>
